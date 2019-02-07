@@ -25,7 +25,7 @@ public class UserController
 	   }
 
 	   
-	   @GetMapping(value="/${name")
+	   @GetMapping(value="/{name}")
 	   public User findByName(@PathVariable("name") String name)
 	   {
 		   
